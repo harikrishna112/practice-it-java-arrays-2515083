@@ -43,5 +43,10 @@ public class App {
     arr = new String[] { "HARI", "KRISHNA", "RESHMA" };
     arr = reverseArray(arr);
     System.out.println(Arrays.toString(arr));
+
+    CustomArrayList<Integer>  customInt = new  CustomArrayList<>();
+    System.out.println(customInt.size());
+    customInt.add(1);
+    System.out.println(customInt.size());
   }
 }
